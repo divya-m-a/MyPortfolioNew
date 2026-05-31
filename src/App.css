@@ -1,0 +1,394 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.logo-glass {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  background: rgba(65, 134, 203, 0.1);
+  border: 1px solid #cfe3ff;
+  color: #4186cb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  backdrop-filter: blur(10px);
+  transition: 0.3s ease;
+}
+
+.logo-glass:hover {
+  transform: scale(1.05);
+  background: #4186cb;
+  color: white;
+}
+
+.App-header {
+  background-color: #f0f2f7;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* =========================
+   ABOUT SECTION MODERN UI
+========================= */
+.about-section-modern {
+  padding: 100px 0;
+  background: #ffffff;
+}
+
+/* TEXT CARD */
+.about-card {
+  background: #f8fafc;
+  padding: 35px;
+  border-radius: 18px;
+
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 8px 25px rgba(65, 134, 203, 0.12);
+}
+
+/* TITLE */
+.about-title {
+  font-size: 2.3rem;
+  font-weight: 800;
+  color: #0f172a;
+  margin-bottom: 20px;
+}
+
+.about-title span {
+  color: #4186cb;
+}
+
+/* TEXT */
+.about-text {
+  font-size: 1rem;
+  color: #475569;
+  line-height: 1.8;
+  margin-bottom: 15px;
+}
+
+/* HIGHLIGHT */
+.highlight {
+  color: #4186cb;
+  font-weight: 700;
+}
+
+/* SKILL TAGS */
+.skill-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.skill-box span {
+  background: #e0f2fe;
+  color: #0369a1;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+/* AVATAR CARD */
+.avatar-card {
+  background: #f8fafc;
+  border-radius: 50%;
+  padding: 25px;
+  display: inline-block;
+
+  box-shadow: 0 10px 30px rgba(65, 134, 203, 0.2);
+}
+
+/* IMAGE */
+.avatar-img {
+  width: 260px;
+  max-width: 100%;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .about-card {
+    text-align: center;
+  }
+
+  .skill-box {
+    justify-content: center;
+  }
+}
+
+.about-modern-card {
+  border: none;
+  border-radius: 18px;
+  background: #ffffff;
+  box-shadow: 0 10px 30px rgba(65, 134, 203, 0.12);
+  overflow: hidden;
+  transition: 0.3s ease;
+}
+
+.about-modern-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 40px rgba(65, 134, 203, 0.18);
+}
+
+/* HEADER BAR */
+.about-card-header {
+  background: linear-gradient(90deg, #4186cb, #60a5fa);
+  color: white;
+  font-weight: 700;
+  padding: 12px 18px;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+}
+
+/* INTRO TEXT */
+.about-intro {
+  color: #475569;
+  font-size: 0.95rem;
+  line-height: 1.8;
+}
+
+.about-intro span {
+  color: #4186cb;
+  font-weight: 700;
+}
+
+/* ACTIVITY BOX */
+.activity-box {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.activity-item {
+  background: #f1f5f9;
+  padding: 10px 12px;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  color: #334155;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: 0.3s;
+}
+
+.activity-item:hover {
+  background: #e0f2fe;
+  transform: translateX(5px);
+}
+
+/* QUOTE BOX */
+.quote-box {
+  margin-top: 15px;
+  padding: 12px;
+  border-left: 4px solid #4186cb;
+  background: #f8fafc;
+  font-style: italic;
+  color: #334155;
+  border-radius: 8px;
+}
+
+.quote-author {
+  text-align: right;
+  margin-top: 8px;
+  font-weight: 600;
+  color: #4186cb;
+}
+
+
+
+
+
+
+
+
+.tech-wrapper {
+  justify-content: center;
+  padding: 40px 10px;
+}
+
+/* MAIN CARD */
+.tech-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  padding: 18px 10px;
+  text-align: center;
+  transition: 0.25s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ICON AREA */
+.tech-icon {
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tech-icon img {
+  width: 38px;
+  height: 38px;
+  object-fit: contain;
+}
+
+/* LABEL (IMPORTANT FIX) */
+.tech-label {
+  margin-top: 10px;
+  font-weight: 800;
+  font-size: 13px;
+  color: #0f172a;
+  letter-spacing: 0.3px;
+}
+
+/* HOVER */
+.tech-card:hover {
+  transform: translateY(-6px);
+  border-color: #4186cb;
+  box-shadow: 0 10px 25px rgba(65, 134, 203, 0.2);
+}
+
+.tool-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  padding: 18px 10px;
+  text-align: center;
+  transition: 0.25s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.tool-icon {
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tool-icon img {
+  width: 38px;
+  height: 38px;
+  object-fit: contain;
+}
+
+.tool-label {
+  margin-top: 10px;
+  font-weight: 800;
+  font-size: 13px;
+  color: #0f172a;
+  letter-spacing: 0.3px;
+}
+
+.tool-card:hover {
+  transform: translateY(-6px);
+  border-color: #4186cb;
+  box-shadow: 0 10px 25px rgba(65, 134, 203, 0.2);
+}
+
+
+
+
+
+.project-glass-card {
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  padding: 22px;
+  margin: 15px 0;
+  backdrop-filter: blur(10px);
+  transition: 0.3s ease;
+  height: 100%;
+}
+
+.project-glass-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+}
+
+.project-tag {
+  font-size: 11px;
+  font-weight: 700;
+  color: #4186cb;
+  letter-spacing: 1px;
+}
+
+.project-title {
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 10px;
+  color: #0f172a;
+}
+
+.project-desc {
+  font-size: 13px;
+  color: #64748b;
+  margin-top: 10px;
+  line-height: 1.5;
+}
+
+.project-tech {
+  margin-top: 12px;
+}
+
+.project-tech span {
+  display: inline-block;
+  font-size: 11px;
+  background: #e0f2fe;
+  color: #0369a1;
+  padding: 4px 8px;
+  border-radius: 6px;
+  margin: 4px 4px 0 0;
+}
+
+.project-links {
+  margin-top: 15px;
+  display: flex;
+  gap: 12px;
+}
+
+.project-links a {
+  font-size: 12px;
+  font-weight: 600;
+  color: #4186cb;
+  text-decoration: none;
+}
+
+.project-links a:hover {
+  color: #1d4ed8;
+}
