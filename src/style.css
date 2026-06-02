@@ -2,32 +2,6 @@
   color: var(--imp-text-color) !important;
 }
 
-/* html {
-   --section-background-color: linear-gradient(
-    to bottom left,
-    #f5f7fa,
-    #eef2f6
-  );
-
-  --image-gradient: linear-gradient(
-    to bottom left,
-    rgba(245, 247, 250, 0.95),
-    rgba(238, 242, 246, 0.95)
-  );
-  --imp-text-color: #4186cb;
-}
-
-.purple {
-  color: var(--imp-text-color) !important;
-}
-
-button:focus {
-  box-shadow: none !important;
-}
-
-/* --------- */
-/*  Preloader */
-/* --------- */
 #preloader {
   position: fixed;
   top: 0;
@@ -45,44 +19,33 @@ button:focus {
   opacity: 0;
 }
 
-/* #preloader-none {
-  opacity: 0;
-  display: none;
-} */
 
 #no-scroll {
   overflow: hidden;
   height: 100vh;
 }
 
-/* --------- */
-/*Scrollbar   */
-/* --------- */
 
 ::-webkit-scrollbar {
   width: 7px;
 }
 
-/* Track */
 ::-webkit-scrollbar-track {
   background: #dcd9e2;
 }
 
-/* Handle */
+
 ::-webkit-scrollbar-thumb {
   background: #4186cb;
   border-radius: 12px;
 }
 
-/* Handle on hover */
+
 ::-webkit-scrollbar-thumb:hover {
   background: #4186cb;
   border-radius: 12px;
 }
 
-/* --------- */
-/* Navbar Section  */
-/* --------- */
 .sticky {
   background-color: #1b1a2ea9 !important;
   transition: all 0.3s ease-out 0s !important;
@@ -213,14 +176,12 @@ button:focus {
   width: 100%;
 }
 
-/* --------- */
-/* Home section */
-/* --------- */
+
 .wave {
-  animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
-  animation-duration: 2.1s; /* Change to speed up or slow down */
-  animation-iteration-count: infinite; /* Never stop waving :) */
-  transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
+  animation-name: wave-animation;
+  animation-duration: 2.1s; 
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%; 
   display: inline-block;
 }
 
@@ -230,7 +191,7 @@ button:focus {
   }
   10% {
     transform: rotate(14deg);
-  } /* The following five values can be played with to make the waving more or less extreme */
+  } 
   20% {
     transform: rotate(-8deg);
   }
@@ -245,7 +206,7 @@ button:focus {
   }
   60% {
     transform: rotate(0deg);
-  } /* Reset for the last half to pause */
+  } 
   100% {
     transform: rotate(0deg);
   }
@@ -265,7 +226,6 @@ button:focus {
 .home-section {
   position: relative;
   z-index: -1;
-  /* background-image: var(--image-gradient), url(./Assets/home-bg.jpg); */
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
@@ -406,9 +366,6 @@ button:focus {
   color: #700c86 !important;
 }
 
-/* --------- */
-/* Footer */
-/* --------- */
 .footer {
   background-color: rgb(10, 4, 22);
   bottom: 0 !important;
@@ -449,9 +406,7 @@ button:focus {
 .blockquote-footer {
   color: #a588c0 !important;
 }
-/* --------- */
-/* Projects */
-/* --------- */
+
 .project-section {
   position: relative !important;
   padding-top: 150px !important;
@@ -546,15 +501,12 @@ button:focus {
   padding-top: 10px !important;
 }
 
-/* --------- */
-/* About */
-/* --------- */
+
 
 .about-section {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-  /* background-image: var(--section-background-color) !important; */
   color: white !important;
 }
 
@@ -619,9 +571,7 @@ button:focus {
     padding-top: 0 !important;
   }
 }
-/* --------- */
-/* Resume */
-/* --------- */
+
 
 .resume-section {
   position: relative !important;
@@ -823,13 +773,10 @@ button:focus {
   0% { transform: translateY(0px); }
   50% { transform: translateY(-10px); }
   100% { transform: translateY(0px); }
-} */
+} 
 
 
 
-/* =========================
-   ROOT THEME
-========================= */
 html {
   --section-background-color: linear-gradient(to bottom, #f8fafc, #eef2f6);
   --image-gradient: linear-gradient(to bottom, rgba(248, 250, 252, 0.95), rgba(238, 242, 246, 0.95));
@@ -842,9 +789,6 @@ body {
   font-family: "PT Mono", monospace;
 }
 
-/* =========================
-   NAVBAR
-========================= */
 .navbar {
   position: fixed !important;
   width: 100%;
@@ -885,7 +829,6 @@ body {
   color: #4186cb !important;
 }
 
-/* underline animation */
 .nav-link-custom::after {
   content: "";
   position: absolute;
@@ -920,9 +863,7 @@ body {
   transform: translateY(-2px);
 }
 
-/* =========================
-   HOME SECTION
-========================= */
+
 .home-section {
   height: 100vh;
   display: flex;
@@ -945,9 +886,7 @@ body {
   color: #64748b;
 }
 
-/* =========================
-   SOCIAL ICONS
-========================= */
+
 .home-social-icons {
   background: #ffffff !important;
   color: #4186cb !important;
@@ -961,9 +900,7 @@ body {
   transform: translateY(-3px);
 }
 
-/* =========================
-   FOOTERx
-========================= */
+
 .navbar {
   position: fixed !important;
   width: 100%;
@@ -974,24 +911,22 @@ body {
   background: rgba(255, 255, 255, 0.75) !important;
   backdrop-filter: blur(12px);
 
-  /* 🔥 BLACK SHADOW FOR CLEAR VISIBILITY */
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25) !important;
 
   transition: all 0.3s ease-in-out;
 }
 
-/* When scrolled */
 .sticky {
   background: rgba(255, 255, 255, 0.95) !important;
   box-shadow: 0 6px 25px rgba(0, 0, 0, 0.35) !important;
 }
 
-/* Logo */
+
 .logo {
   height: 42px;
 }
 
-/* Links */
+
 .navbar .nav-link {
   color: #1e293b !important;
   font-weight: 500;
