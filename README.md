@@ -1,30 +1,5 @@
 # Portfolio Website - v2.0
 
-<div align="center">
-  <img alt="Demo" src="./Images/readme-img1.png" />
-</div>
-
-<br/>
-
-<center>
-
-![GitHub Repo stars](https://img.shields.io/github/stars/divya-m-a/portfolio?color=blue\&logo=github\&style=for-the-badge)  
-![GitHub forks](https://img.shields.io/github/forks/divya-m-a/portfolio?color=blue\&logo=github\&style=for-the-badge)
-
-</center>
-
-<h3 align="center">
-    🔹
-    <a href="https://github.com/divya-m-a/portfolio/issues">Report Bug</a>
-    &nbsp;&nbsp;
-    🔹
-    <a href="https://github.com/divya-m-a/portfolio/issues">Request Feature</a>
-</h3>
-
-## TL;DR
-
-This is my personal portfolio website showcasing my projects, skills, experience, and resume. Feel free to fork this repository and customize it for your own use.
-
 ## Built With
 
 My personal portfolio website featuring my projects, technical skills, achievements, and professional experience.
