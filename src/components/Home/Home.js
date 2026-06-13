@@ -42,7 +42,7 @@ function Home() {
             </div>
 
             <p className="hero-desc">
-              Passionate Developer | React Enthusiast | Problem Solver
+              Passionate Developer | React Enthusiast | Problem Solver |MERN Stack Developer
             </p>
 
             {/* Social Links */}
