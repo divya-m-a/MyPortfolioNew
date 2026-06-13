@@ -15,39 +15,38 @@ function AboutCard() {
 
         {/* INTRO */}
         <p className="about-intro">
-          Hi, I’m <span>Soumyajit Behera</span> from{" "}
-          <span>Bhubaneswar, India</span>.
+          Hi, I’m <span>Divya M A</span> from{" "}
+          <span>Tamil Nadu, India</span>.
           <br />
-          I work as a <span>Software Developer</span> at <span>Juspay</span>.
+          I am a <span>Frontend Developer</span> passionate about building modern web apps.
           <br />
-          I hold an Integrated M.Sc. in <span>Mathematics and Computing</span>{" "}
-          from <span>BIT Mesra</span>.
+          I love learning <span>React, JavaScript, and UI design</span>.
         </p>
 
         {/* ACTIVITIES */}
         <div className="activity-box">
 
           <div className="activity-item">
-            <ImPointRight /> Playing Games 🎮
+            <ImPointRight /> Building Web Projects 💻
           </div>
 
           <div className="activity-item">
-            <ImPointRight /> Writing Tech Blogs ✍️
+            <ImPointRight /> Learning New Technologies 📚
           </div>
 
           <div className="activity-item">
-            <ImPointRight /> Traveling 🌍
+            <ImPointRight /> Designing UI/UX 🎨
           </div>
 
         </div>
 
         {/* QUOTE */}
         <div className="quote-box">
-          “Strive to build things that make a difference!”
+          “Code, Learn, Build, Repeat.”
         </div>
 
         <div className="quote-author">
-          — Soumyajit
+          — Divya M A
         </div>
 
       </Card.Body>
